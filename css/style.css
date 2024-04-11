@@ -119,6 +119,11 @@ article.second-row:nth-child(3):hover {
     background-size: cover;
 }
 
+/* heart red hover */
+article>span:hover {
+    color: red;
+}
+
 .sp-between {
     justify-content: space-between;
 }
