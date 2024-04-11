@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /*  rendo la nav fixed e stretcho ai lati + bg arancio + colore bianco  */
@@ -66,7 +67,7 @@ article.first-row:nth-child(2) {
     background-size: cover;
 }
 
-article.firs-row:last-child {
+article.firs-row:nth-child(3) {
     background-image: url(../img/3.webp);
     background-size: cover;
 }
@@ -83,6 +84,36 @@ article.second-row:nth-child(2) {
 
 article.second-row:nth-child(3) {
     background-image: url(../img/6.webp);
+    background-size: cover;
+}
+
+article.first-row:first-child:hover {
+    background-image: url(../img/1b.webp);
+    background-size: cover;
+}
+
+article.first-row:nth-child(2):hover {
+    background-image: url(../img/2b.webp);
+    background-size: cover;
+}
+
+article.firs-row:last-child:hover {
+    background-image: url(../img/3b.webp);
+    background-size: cover;
+}
+
+article.second-row:first-child:hover {
+    background-image: url(../img/4b.webp);
+    background-size: cover;
+}
+
+article.second-row:nth-child(2):hover {
+    background-image: url(../img/5b.webp);
+    background-size: cover;
+}
+
+article.second-row:nth-child(3):hover {
+    background-image: url(../img/6b.webp);
     background-size: cover;
 }
 
@@ -145,4 +176,25 @@ footer>section div {
 
 .social-info span {
     padding-right: 0.5rem;
+}
+
+.product-info p:nth-child(2) {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.product-info p:first-child {
+    font-size: 0.5rem;
+}
+
+.discounted-price {
+    color: red;
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+.real-price {
+    font-weight: 100;
+    text-decoration: line-through;
+    font-size: 0.7rem;
 }
