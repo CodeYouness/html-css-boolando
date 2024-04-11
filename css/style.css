@@ -11,6 +11,7 @@ nav {
     left: 0;
     background-color: #ff6900;
     color: white;
+    z-index: 2;
 }
 
 /* do flex per allineare i contenuti della nav*/
@@ -65,8 +66,23 @@ article.first-row:nth-child(2) {
     background-size: cover;
 }
 
-article.firs-row:nth-child(3) {
+article.firs-row:last-child {
     background-image: url(../img/3.webp);
+    background-size: cover;
+}
+
+article.second-row:first-child {
+    background-image: url(../img/4.webp);
+    background-size: cover;
+}
+
+article.second-row:nth-child(2) {
+    background-image: url(../img/5.webp);
+    background-size: cover;
+}
+
+article.second-row:nth-child(3) {
+    background-image: url(../img/6.webp);
     background-size: cover;
 }
 
@@ -102,4 +118,31 @@ article>span {
 
 .red {
     background-color: red;
+}
+
+section:nth-child(2) {
+    margin-top: 6rem;
+}
+
+footer {
+    margin-top: 6rem;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+footer>section {
+    justify-content: space-between;
+}
+
+footer>section div {
+    padding: 1.5rem 0;
+}
+
+.legal-info>span {
+    padding-right: 0.5rem;
+    margin-top: 1rem;
+}
+
+.social-info span {
+    padding-right: 0.5rem;
 }
