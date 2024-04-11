@@ -18,12 +18,14 @@ nav {
     display: flex;
 }
 
-/* accentro i contenuti e do spazio ai contenuti*/
+/* accentro i contenuti*/
 .max-width {
     margin: 0 auto;
-    max-width: 80%;
-    justify-content: space-between;
-    padding: 1rem;
+    max-width: 60%;
+}
+
+nav>div {
+    padding: 1rem 0;
 }
 
 nav li {
@@ -33,4 +35,40 @@ nav li {
 
 img[alt=boolean-logo] {
     width: 100px;
+}
+
+/* definisco misure di un prodotto */
+article {
+    width: calc((100% / 3) - 1rem);
+    height: 400px;
+    position: relative;
+}
+
+/* posiziono le info in basso rispetto alle misure di article */
+.product-info {
+    position: absolute;
+    top: 100%;
+}
+
+main>section:first-child {
+    padding-top: calc(3rem + 54.2667px);
+}
+
+article.first-row:first-child {
+    background-image: url(../img/1.webp);
+    background-size: cover;
+}
+
+article.first-row:nth-child(2) {
+    background-image: url(../img/2.webp);
+    background-size: cover;
+}
+
+article.firs-row:last-child {
+    background-image: url(../img/3.webp);
+    background-size: cover;
+}
+
+.sp-between {
+    justify-content: space-between;
 }
