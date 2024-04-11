@@ -57,6 +57,7 @@ main>section:first-child {
     padding-top: calc(3rem + 54.2667px);
 }
 
+/* bg image */
 article.first-row:first-child {
     background-image: url(../img/1.webp);
     background-size: cover;
@@ -67,7 +68,7 @@ article.first-row:nth-child(2) {
     background-size: cover;
 }
 
-article.firs-row:nth-child(3) {
+article.firs-row:last-child {
     background-image: url(../img/3.webp);
     background-size: cover;
 }
@@ -87,6 +88,7 @@ article.second-row:nth-child(3) {
     background-size: cover;
 }
 
+/* bg image hover */
 article.first-row:first-child:hover {
     background-image: url(../img/1b.webp);
     background-size: cover;
