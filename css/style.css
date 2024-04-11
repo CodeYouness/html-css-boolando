@@ -50,6 +50,7 @@ article {
     top: 100%;
 }
 
+/* distanza tra section e bordo superiore */
 main>section:first-child {
     padding-top: calc(3rem + 54.2667px);
 }
@@ -64,11 +65,41 @@ article.first-row:nth-child(2) {
     background-size: cover;
 }
 
-article.firs-row:last-child {
+article.firs-row:nth-child(3) {
     background-image: url(../img/3.webp);
     background-size: cover;
 }
 
 .sp-between {
     justify-content: space-between;
+}
+
+/* posizione percentuale sconto */
+.discount-info {
+    position: absolute;
+    bottom: 150%;
+}
+
+/* posizione cuore + bg */
+article>span {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.info {
+    background-color: red;
+    padding: 0.125rem 0.25rem;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
 }
