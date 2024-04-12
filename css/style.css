@@ -68,7 +68,7 @@ article.first-row:nth-child(2) {
     background-size: cover;
 }
 
-article.firs-row:last-child {
+article.first-row:nth-child(3) {
     background-image: url(../img/3.webp);
     background-size: cover;
 }
@@ -99,7 +99,7 @@ article.first-row:nth-child(2):hover {
     background-size: cover;
 }
 
-article.firs-row:last-child:hover {
+article.first-row:nth-child(3):hover {
     background-image: url(../img/3b.webp);
     background-size: cover;
 }
